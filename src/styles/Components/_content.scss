@@ -1,0 +1,31 @@
+.content {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+    background:rgb(196, 209, 205);
+}
+
+.deleteTag {
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: rgb(219, 39, 39);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+
+    &:hover {
+        background: #000;
+    }
+}

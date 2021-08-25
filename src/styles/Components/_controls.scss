@@ -1,0 +1,33 @@
+.controls {
+    &__btn {
+        margin-left: 10px;
+        cursor: pointer;
+        padding: 5px 10px;
+        background: rgb(219, 39, 39);
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        transition: ease-in-out 0.3s;
+
+        &:hover {
+            background: #000;
+        }
+    }
+
+    &__input {
+        padding: 5px;
+        border: 1px solid rgb(19, 133, 168);
+        border-radius: 3px;
+
+        &:focus {
+            outline: none;
+            border: 1px solid rgb(0, 255, 106);
+        }
+    }
+
+    &__checkbox {
+        margin-left: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
